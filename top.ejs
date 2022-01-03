@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>もん茶HP</title>
+        <link rel="stylesheet" href="/css/style.css">
+        
+    </head>
+
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="image"><span class="tit">もん茶</span></div>
+                <a href="/" class="logo-top">
+                    <img src="https://logo-tank.net/logo_data/19253.gif" class="logo2">
+                </a>
+            </div>
+        </header>
+
+        <div class="top_img">
+          <div class="container">
+
+            <div class="top_img2">
+                    <a href="###"><div class="image2"><span class="tit2">新茶、香りませんんか？</span></div></a>
+                    <div class="clear"></div>
+            </div>
+
+            <div class="top_img3">
+                    <a href="###"><div class="image3"><span class="tit3">いつもより少し贅沢な時間を</span></div></a>
+            </div>
+
+          </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="cubu_tea">
+            <div class="container">
+                
+                <div class="cubu_tea1">
+                    <a href="/tea1" class="cubu_teaM cc">抹茶</a>
+                    <a href="/tea2" class="cubu_teaH cc">ほうじ茶</a>
+                    <a href="/tea3" class="cubu_teaR cc">緑茶</a>
+                </div>
+
+                <div class="cubu_tea2">
+                    <a href="/tea4" class="cubu_teaG cc">玉露</a>
+                    <a href="/tea5" class="cubu_teaS cc">冷煎茶</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="sum_up">
+            <div class="container">
+                <div class="sum_up2">
+
+                    <div class="accese">
+                        <h3 class="accese_title">アクセス</h3>
+                        <div class="accese_map"><img src="https://appllio.com/sites/default/files/styles/article-center/public/field/image/google-maps-000.png?itok=zHWLKM4o" class="accese_map_image"></div>
+                        <ul>
+                            <a href="###" class="accese_sum"><li>URL:https://appllio.com/sites/default/file<br>s/styles/article-center/public/field/image/google-maps-000.png?<br>itok=zHWLKM4o</li></a>
+                            <a href="###" class="accese_sum"><li>京都府京都市北区竹花通り3丁目14-22 竹花第2ビル 1F</li></a>
+                            <a href="###" class="accese_sum"><li>TEL:090-7224-3799</li></a>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                
+
+                    <div class="question">
+                            
+                                <h3 class="question_title">お問い合わせ</h3>
+                                <span class="question_top">件名</span>
+                                <br>
+                                <input type="text" class="question_input">
+                                <br>
+                                <span class="question_sum">内容</span>
+                                <br>
+                                <textarea class="question_sum_up"></textarea>
+                                <br>
+                                <a href="/infor"><input type="submit" class="question_send"></a>
+                            
+                      
+                        <div class="clear"></div>   
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    
+        <footer>
+            <div class="container">
+                <div class="information">
+                    <h4 class="information_title">information</h4>
+                    <div class="information_sum">
+                        <ul class="information_ul">
+                            <% const info = ["お問い合わせ", "独自製法の秘密", "期間限定", "定番の抹茶", "お客様の声", "お店の味をお家で"] %>
+                            <% for (let i = 0; i < info.length; i++) { %>
+                                <a href="###" class="info_a"><li><%= info[i] %></li></a>
+                            <% } %>
+                        </ul>
+                    </div>
+                </div>
+                <a href="/" class="logo">
+                    <img src="https://logo-tank.net/logo_data/19253.gif" class="logo_img">
+                </a>
+            </div>
+            
+            
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.image', { easing: 'ease',
+                                duration: 2000, 
+                                distance: '500px', 
+                                opacity: 0.001, 
+                                scale: 1, 
+                                reset: true, 
+                                viewFactor: 0.8,
+                                
+            });
+          </script>
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.logo2', { easing: 'ease',
+                        duration: 2000, 
+                        distance: '500px', 
+                        opacity: 0.001, 
+                        scale: 1, 
+                        reset: true, 
+                        viewFactor: 0.1
+                    });
+  </script>
+
+
+
+            <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.top_img2', { duration: 1600, 
+                                     scale: 2,
+                                     reset: true,
+                                     opacity: 0.001, 
+                                     viewFactor: 0.1,
+                                     distance: '500px'
+                                });
+            </script>
+
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.top_img3', { duration: 2200, 
+                             scale: 5,
+                             reset: true,
+                             opacity: 0.001, 
+                             viewFactor: 0.1,
+                             distance: '500px'
+                        });
+    </script>
+
+    <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.cubu_teaM', { duration: 2800, 
+                             scale: 1,
+                             reset: true,
+                              
+                             distance: '800px',
+                             viewFactor: 0.1,
+                             origin: 'right'
+                        });
+
+                        
+    </script>
+
+
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.cubu_teaH', { duration: 2400, 
+                             scale: 1,
+                             reset: true,
+                             opacity: 0.001, 
+                             distance: '1000px',
+                             viewFactor: 0.1,
+                             origin: 'top'
+                        });
+
+                        
+    </script>
+
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.cubu_teaR', { duration: 2300, 
+                             scale: 1,
+                             reset: true,
+                             opacity: 0.001, 
+                             viewFactor: 0.1,
+                             distance: '1000px',
+                             origin: 'left'
+                        });
+
+                        
+    </script>
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.cubu_teaG', { duration: 1700, 
+                             scale: 1,
+                             reset: true,
+                             opacity: 0.001, 
+                             distance: '1000px',
+                             viewFactor: 0.1,
+                             origin: 'left'
+                        });
+
+                        
+    </script>
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.cubu_teaS', { duration: 1800, 
+                             scale: 1,
+                             reset: true,
+                             opacity: 0.001, 
+                             distance: '1000px',
+                             viewFactor: 0.1,
+                             origin: 'bottom'
+                        });
+
+                        
+    </script>
+
+
+
+    </body>
+
+</html>

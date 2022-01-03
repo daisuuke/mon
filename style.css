@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.image {
+    background-image: url("https://nestle.jp/matcha/img/section01_img005.png");
+    background-size: 100%; 
+    height: 310px;
+    text-align: center;
+    box-shadow:  5px 0 60px 1px rgb(6, 29, 9);
+    position: relative;
+}
+
+.logo2 {
+    width: 100px;
+    position: absolute;
+    top: 1px;
+
+}
+
+
+.tit {
+    display: inline-block;
+    font-family: initial;
+    margin: 120px 120px 130px 0;
+    font-size: 60px;
+}
+
+
+.image2 {
+    background-image: url("https://storage.tenki.jp/storage/static-images/suppl/article/image/2/29/294/29498/1/large.jpg");
+    background-size: 100%; 
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    float: right;
+    opacity: 0.7;
+    box-shadow:  5px 0 20px 3px rgb(81, 11, 194);
+}
+
+.image2:hover {
+    opacity: 1;
+}
+
+.image2:active {
+    opacity: 0.7;
+}
+
+.tit2 {
+    display: inline-block;
+    font-family: initial;
+    color: white;
+    margin-top: 180px;
+}
+
+
+.image3 {
+    background-image: url("https://images.keizai.biz/akasaka_keizai/headline/1626800163_photo.jpg");
+    background-size: 100%; 
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    float: left;
+    opacity: 0.7;
+    box-shadow:  5px 0 20px 1px rgb(224, 72, 12);
+}
+
+.image3:hover {
+    opacity: 1;
+}
+
+.image3:active {
+    opacity: 0.7;
+}
+
+.tit3 {
+    display: inline-block;
+    font-family: initial;
+    color: black;
+    margin-top: 220px;
+}
+
+
+.cubu_tea {
+    border-bottom: 1px solid silver;
+    width: 1050px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cubu_tea1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.cubu_tea2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cubu_teaM {
+    box-shadow:  5px 0 20px 3px rgb(9, 139, 63);
+}
+
+.cubu_teaM:hover {
+    box-shadow:  5px 0 200px 40px rgb(9, 139, 63);
+    transition: 2s;
+}
+
+.cubu_teaM:active {
+    box-shadow: 5px 0 20px 0 rgb(9, 139, 63);
+    transition: 0s;
+}
+
+.cubu_teaH {
+    box-shadow:  5px 0 20px 3px rgb(107, 60, 6);
+}
+
+.cubu_teaH:hover {
+    box-shadow: 5px 0 200px 40px rgb(107, 60, 6);
+    transition: 2s;
+}
+
+.cubu_teaH:active {
+    box-shadow: 5px 0 20px 0 rgb(107, 60, 6);
+    transition: 0s;
+}
+
+.cubu_teaR {
+    box-shadow:  5px 0 20px 3px rgb(110, 150, 16);
+}
+
+.cubu_teaR:hover {
+    box-shadow: 5px 0 200px 40px rgb(110, 150, 16);
+    transition: 2s;
+}
+
+.cubu_teaR:active {
+    box-shadow: 5px 0 20px 0 rgb(110, 150, 16);
+    transition: 0s;
+}
+
+.cubu_teaG {
+    box-shadow:  5px 0 20px 3px rgb(12, 51, 3);
+}
+
+.cubu_teaG:hover {
+    box-shadow: 5px 0 200px 40px rgb(12, 51, 3);
+    transition: 2s;
+}
+
+.cubu_teaG:active {
+    box-shadow: 5px 0 20px 0 rgb(12, 51, 3);
+    transition: 0s;
+}
+
+.cubu_teaS {
+    box-shadow:  5px 0 20px 3px rgb(135, 192, 59);
+}
+
+.cubu_teaS:hover {
+    box-shadow: 5px 0 200px 40px rgb(135, 192, 59);
+    transition: 2s;
+}
+
+.cubu_teaS:active {
+    box-shadow: 5px 0 20px 0 rgb(135, 192, 59);
+    transition: 0s;
+}
+
+
+.cc {
+    display: inline-block;
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    line-height:160px;
+    text-align:center;
+    border: 1px solid rgb(103, 199, 228);
+    font-size: 22px;
+    color: black;
+    margin: 30px 60px;
+    opacity: 0.5;
+    background-color:rgb(228, 249, 255);
+}
+
+.cc:hover {
+    opacity: 1;
+}
+
+.cc:active {
+    opacity: 0.7;
+}
+
+.sum_up2 {
+    width: 100%;
+}
+
+
+.accese {
+    float: left;
+    border-right: 1px solid silver;
+    margin-top: 20px;
+    width: 33%;
+}
+
+.accese_title {
+    padding-left:140px;
+}
+
+.accese_map_image {
+    width: 260px;
+    margin-left: 40px;
+}
+
+.accese_sum {
+    font-size:13px;
+}
+
+.question {
+    width: 33%;
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid silver;
+    text-align: center;
+    height: 371px;
+}
+
+
+.question_top {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.question_input {
+    width: 200px;
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+.question_sum {
+    font-size: 13px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.question_sum_up {
+    width: 200px;
+    margin-top: 7px;
+    height: 120px;
+    font-size: 13px;
+}
+
+.question_send {
+    width: 100px;
+    margin-top: 7px;
+    font-size: 13px;
+    box-shadow: 0 0 5px rgb(160, 255, 242) inset;
+    border: 1px solid silver;
+    opacity: 0.7;
+}
+
+.question_send:hover {
+    opacity: 1;
+}
+
+.question_send:active {
+    opacity: 0.7;
+    color: rgb(14, 24, 15);
+}
+
+.information {
+    text-align: center;
+    background-color: rgb(25, 25, 85);
+    color:rgb(228, 249, 255);
+    height: 150px;
+}
+
+.information_sum {
+    font-size: 12px;
+}
+
+.info_a {
+    color: rgb(206, 205, 205);
+    width: 25%;
+    opacity: 0.7;
+}
+
+.info_a:hover {
+    opacity: 1;
+}
+
+.info_a:active {
+    opacity: 0.8;
+}
+
+.information_ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: relative;
+}
+
+.logo_img {
+    width: 80px;
+    position: absolute;
+    top:80px;
+    right: 180px;
+}
+
